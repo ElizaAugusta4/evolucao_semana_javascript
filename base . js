@@ -1,0 +1,59 @@
+//Atribuição de variáveis!
+//Operadores
+let meuNome = "Eliza Augusta";
+let minhaIdade = 28;  
+let idadeMae = 55;  
+let soma = minhaIdade + idadeMae;
+console.log(soma)
+let subtracao = minhaIdade - idadeMae
+console.log(subtracao)
+let multiplicacao = minhaIdade * idadeMae;
+console.log(multiplicacao);
+let resto = minhaIdade % idadeMae == 0; 
+console.log(resto);
+let Elizatemgato = false;
+let Elizatemdoisgatos = false;
+if(Elizatemgato){
+    console.log("Eliza tem um gato!")
+}else {
+    console.log("Eliza tem dois gatos !")
+}
+//valores booleanos
+let x = 10; 
+let y = "10";
+if(x !== y){
+    console.log("Verdadeiro")
+}else{
+    console.log("Falso")
+}
+//funcão básica
+function olaFuturosDevs(){
+ console.log("Eu serei uma/um dev fullstack!!!")
+}
+function serDevEhLegal(){
+    console.log("É super legal ser desenvolver")
+}
+
+olaFuturosDevs()
+serDevEhLegal()
+
+//funções com parâmetros
+
+function minhaMensagem(mensagem){
+    console.log(mensagem);
+}
+
+minhaMensagem("Eu serei dev fullstack!");
+minhaMensagem("Javascript é incrível");
+
+let gastosDaEliza = 10;
+let gastosdeDorgival = 15;
+let gastosdePedro = 30;
+
+function calcularTotalRefeicao(valor1, valor2, valor3){
+    let total = valor1 + valor2 + valor3;
+    
+    console.log(total)
+}
+
+calcularTotalRefeicao(gastosDaEliza, gastosdeDorgival,gastosdePedro)
